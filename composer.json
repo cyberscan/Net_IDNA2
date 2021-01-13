@@ -20,13 +20,18 @@
         "issues": "https://pear.php.net/bugs/search.php?cmd=display&package_name[]=Net_IDNA2",
         "source": "https://github.com/pear/Net_IDNA2"
     },
-    "include-path": [
-        "./"
-    ],
     "autoload": {
         "psr-0": {
-            "Net": "./"
-        }
+            "Net\\IDNA2\\": "Net/",
+            "Net\\IDNA2\\Exception\\": "Net/IDNA/"
+        },
+        "psr-4": {
+            "Net\\IDNA2\\": "Net/",
+            "Net\\IDNA2\\Exception\\": "Net/IDNA/"
+        },
+        "classmap": [
+            "Net/*"
+        ]
     },
     "require": {
         "pear/pear_exception": "^1.0.0"
