@@ -22,8 +22,14 @@
     },
     "autoload": {
         "psr-0": {
-            "Net_IDNA2": ""
-        }
+            "Net\\IDNA2\\": ""
+        },
+        "psr-4": {
+            "Net\\IDNA2\\": ""
+        },
+        "classmap": [
+            "Net/*"
+        ]
     },
     "require": {
         "pear/pear_exception": "^1.0.0"
