@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Net_IDNA2\\": "*"
+            "Net_IDNA2": "*"
         },
         "psr-4": {
             "Net_IDNA2\\": "*"
